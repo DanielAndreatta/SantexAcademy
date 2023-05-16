@@ -85,7 +85,7 @@ div#introduction-actions {
 
 #impacto-centro-columna1{
     display: flex;
-    width: 16,666666666667% !important;
+    width: 16.666666666667% !important;
     margin-top: 0px;
     margin-bottom: 20px;
     position: relative;
@@ -94,7 +94,7 @@ div#introduction-actions {
 }
 
 #impacto-centro-columna2{
-    width: 33,333333333333% !important;
+    width: 33.333333333333% !important;
     margin-top: 0px;
     margin-bottom: 20px;
     position: relative;
@@ -115,7 +115,7 @@ div#introduction-actions {
 
 #impacto-centro-columna3{
     display: flex;
-    width: 33,333333333333% !important;
+    width: 33.333333333333% !important;
     margin-top: 0px;
     margin-bottom: 20px;
     position: relative;
@@ -246,7 +246,7 @@ div#introduction-actions {
     box-sizing: border-box;
 }   
 
-#programas {
+.programas {
     box-sizing: border-box;
     display: block;
 }
@@ -272,7 +272,7 @@ div#introduction-actions {
     box-sizing: border-box;
 }
 
-#programas-div2 {
+.programas-div2 {
     max-width: 1248px;
     margin-left: calc(-4% / 2 );
     margin-right: calc(-4% / 2 );
@@ -289,7 +289,7 @@ div#introduction-actions {
     box-sizing: border-box;
 }
 
-#programas-div3 {
+.programas-div3 {
     background-position: left top;
     background-repeat: no-repeat;
     background-size: cover;
@@ -307,7 +307,7 @@ div#introduction-actions {
     box-sizing: border-box;
 }
 
-#programas-div4 {
+.programas-div4 {
     margin-top: 10px;
     margin-right: 0px;
     margin-bottom: 15px;
@@ -316,7 +316,7 @@ div#introduction-actions {
     box-sizing: border-box;
 }
 
-#programas-div4-h2 {
+.programas-div4-h2 {
     margin: 0px;
     --fontSize: 30;
     line-height: 1.2;
@@ -326,7 +326,24 @@ div#introduction-actions {
     color: #201B24
 }
 
-#programas1-div1 {
+.programas1-div1 {
+    max-width: 1248px;
+    margin-left: calc(-4% / 2 );
+    margin-right: calc(-4% / 2 );
+    padding-left: 0px;
+    padding-right: 0px;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.programas1-div11 {
     max-width: 1248px;
     margin-left: calc(-4% / 2 );
     margin-right: calc(-4% / 2 );
@@ -469,7 +486,7 @@ div#introduction-actions {
     margin-inline-end: 0px;
 }
 
-.programas-div2 {
+.programas-div22 {
     background-color: rgba(255, 255, 255, 0);
     background-position: center center;
     background-repeat: no-repeat;
@@ -533,4 +550,292 @@ div#introduction-actions {
     margin-left: 0px!important;
     display: block;
     box-sizing: border-box;
+}
+
+.equipo {
+    background-color: #f4f4f5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    border-width: 0px 0px 0px 0px;
+    border-color: #d9d9d9;
+    border-style: solid;
+    padding-top: 60px;
+    margin-top: 0px;
+    padding-right: 30px;
+    padding-bottom: 50px;  
+    margin-bottom: 0px;
+    padding-left: 30px;
+    margin-left: var(-30px);
+    margin-right: var(-30px);
+    display: flex;
+    justify-content: center;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.equipo-div1 {
+    max-width: 1248px;
+    margin-left: calc(-4% / 2 );
+    margin-right: calc(-4% / 2 );
+    padding-left: 0;
+    padding-right: 0;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.equipo-div1-title {
+    display: flex;
+    width: 100% !important;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.equipo-div1-title1 {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding-top: 0px !important;
+    padding-right: 0px !important;  
+    margin-right: 1.92%;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 1.92%;
+    min-height: 1px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.equipo-div1-title2 {
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 15px;
+    margin-left: 0px;
+    display: block;
+    box-sizing: border-box;
+}
+
+.equipo-div1-title2-h2 {
+    margin: 0px;
+    font-size: 30;
+    line-height: 1.2;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    padding: 0;
+    text-align: left;
+    color: #201B24;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.equipo-div2 {
+    display: flex;
+    width: 20% !important;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.equipo-div2-retrato {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding-top: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 4.8%;
+    padding-bottom: 0px !important;
+    padding-left: 0px !important;
+    margin-left: 4.8%;
+    min-height: 1px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.equipo-div2-retrato-img {
+    text-align: center;
+    box-sizing: border-box;
+    display: block;
+}
+
+.equipo-div2-retrato-info {
+    width: 104% !important;
+    max-width: 104% !important;
+    margin-left: calc(-4% / 2 );
+    margin-right: calc(-4% / 2 );
+    padding-left: 0;
+    padding-right: 0;
+    flex: auto;
+    flex-grow: initial;
+    flex-shrink: initial;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 10;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.equipo-div2-retrato-img-span {
+    border-radius: 15px 15px 0 0;
+    display: inline-block;
+    z-index: 1;
+    overflow: hidden;
+    position: relative;
+    vertical-align: middle;
+    max-width: 100%;
+    line-height: 1;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.equipo-div2-retrato-img-span1 {
+    vertical-align: top;
+    box-shadow: none!important;
+    border-style: none;
+    max-width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    width: 540px;
+    aspect-ratio: auto 540 / 400;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    line-height: 1;
+    text-align: center;
+}
+
+.equipo-div2-retrato-info-div {
+    display: flex;
+    width: 100% !important;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    float: left;
+    box-sizing: border-box;
+}
+
+.equipo-div2-retrato-info-div1 {
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #ffffff;
+    border-radius: 0px 0px 15px 0px;
+    overflow: hidden;
+    flex-direction: column;
+    display: flex;
+    width: 100%;
+    padding-top: 15px !important;
+    padding-right: 0px !important;
+    margin-right: 1.92%;
+    padding-bottom: 20px !important;
+    padding-left: 0px !important;
+    margin-left: 1.92%;
+    min-height: 1px;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.equipo-div2-retrato-info-div1-nombre {
+    font-size: 18px;
+    margin-top: 10px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    display: block;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.equipo-div2-retrato-info-div1-rol {
+    text-align: center;
+    color: #8c939c;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    display: block;
+}
+
+.equipo-div2-retrato-info-div1-icon {
+    font-size: 12.32px;
+    line-height: 20.64px;
+    height: 24.64%;
+    width: 24.64%;
+    border-width: 2px;
+    border-radius: 50% 50% 50% 50%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    align-self: center;
+    color: #201B24;
+    background-color: rgba(32, 27, 36, 0);
+    border-color: #201B24;
+    background-clip: inherit;
+    border-style: solid;
+    text-align: center;
+    display: inline-block;
+    float: left;
+    font-family: "Font Awesome 5 Brands";
+    -webkit-font-smoothing: antialiased;
+    font-style: normal;
+    font-variant: normal;
+    text-rendering: auto;
+    transition-property: color,background-color,border-color;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    text-decoration: none;
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.equipo-div2-retrato-info-div1-nombre-h5 {
+    margin: 0px;
+    font-size: 1em;
+    line-height: 1.2;
+    padding: 0;
+    text-align: center;
+    color: #201B24;
+    font-family: Inter, Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    letter-spacing: -0.4px;
+    font-style: var(normal,normal);
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1.67em;
+    margin-block-end: 1.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.equipo-div2-retrato-info-div1-rol-p {
+    margin-bottom: 0;
+    margin-top: 0;
+    margin: 0 0 20px;
+    box-sizing: border-box;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    text-align: center;
+    color: #201B24;
 }
